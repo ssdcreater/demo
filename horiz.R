@@ -1,3 +1,3 @@
-A <- c(211,180,114,107,106,104,94.5,93,83.4,80.5)
-B <- c("bernard","elon mask","jeff bezon","larry ellis","warren ","bill gates","michael","curlos","makesh ambani","stave bull")
-barplot(A,horiz =TRUE,xbal ="names",ybal ="nat of worth",top ten billionaires")
+A <- c(80.5,83.4,93,94,104,106,107,114,180,211)
+B <- c("steve bull","mukesh ambani","curlos","michael","bill gate","warren buse","larry ellis","jeff bezon","elon mask","bernard")
+barplot(A,names.arg=B,horiz =TRUE,xlab ="net of worth",ylab ="names",col ="blue",main ="top ten billionaires")

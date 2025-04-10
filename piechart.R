@@ -1,3 +1,3 @@
-X <- c(211,180,114)
-label <- C("fashion retail","tesla","automotive")
-pie(X,labels)
+A <- c(211,180,114)
+labels <- c("france","US","maxico")
+pie(A,labels,main ="top three country")
